@@ -23,8 +23,7 @@ public class BbsDAO {
 			e.printStackTrace();
 		}
 	}
-	//현재의 시간을 가져오는 함수
-	//현재의 시간을 가져오는 함수
+
 	          public int getNext() {
 	        	  String SQL = "select bbsID from bbs order by bbsID desc";
 	          try {
